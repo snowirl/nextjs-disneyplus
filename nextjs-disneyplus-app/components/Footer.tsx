@@ -23,7 +23,7 @@ const Footer = () => {
         <p className="cursor-pointer">
           Do Not Sell or Share My Personal Information
         </p>
-        <p className="cursor-pointer">Children's Online Privacy Policy</p>
+        <p className="cursor-pointer">Children&apos;s Online Privacy Policy</p>
         <p className="cursor-pointer">Help</p>
         <p className="cursor-pointer">Closed Captioning</p>
         <p className="cursor-pointer">Supported Devices</p>
