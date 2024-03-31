@@ -33,7 +33,7 @@ const Footer = () => {
         <p className="cursor-pointer">Interest-based Ads</p>
       </div>
       <div className="flex items-center justify-center py-4">
-        <p className="text-xs text-white/60">© Disney. All Rights Reserved.</p>
+        <p className="text-xs text-gray-200">© Disney. All Rights Reserved.</p>
       </div>
     </div>
   );
