@@ -28,7 +28,7 @@ const ShowsCarousel = (props: ShowsCarouselProps) => {
           {Array.from({ length: props.results.length }).map((_, index) => (
             <CarouselItem
               key={index}
-              className="basis-[60%] md:basis-[40%] 2xl:basis-[20%]"
+              className="basis-[60%] md:basis-[40%] lg:basis-[20%]"
             >
               <div className="p-1">
                 <div className="">
@@ -36,7 +36,9 @@ const ShowsCarousel = (props: ShowsCarouselProps) => {
                     <span className="custom-title-text text-white absolute bottom-2 left-2 text-base z-10">
                       {props.results[index].title}
                     </span>
-                    <img
+                    <Image
+                      width={1920}
+                      height={1280}
                       src={`https://image.tmdb.org/t/p/original${props.results[index].backdrop_path}`}
                       alt="Movie Image"
                       className="object-cover object-top w-full h-full rounded-md "

@@ -38,10 +38,12 @@ const FeaturedCarousel = (props: FeaturedCarouselProps) => {
                     <span className="custom-title-text text-white absolute bottom-6 left-6 text-lg z-10">
                       {props.data.results[index].title}
                     </span>
-                    <img
+                    <Image
+                      width={1920}
+                      height={1280}
                       src={`https://image.tmdb.org/t/p/original${props.data.results[index].backdrop_path}`}
                       alt="Movie Image"
-                      className="object-cover object-top w-full h-full rounded-md"
+                      className="object-cover object-top w-100% h-100% rounded-md"
                     />
                   </div>
                 </div>
